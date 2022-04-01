@@ -31,7 +31,20 @@ $(".input").each(function () {
 
 }
 
+// Created button functionality
+var eventText;
+var eventTime;
 
+$(".saveBtn").click(function() {
+    eventText = $(this).siblings(".input").val();
+    console.log(eventText);
+    eventTime = $(this).siblings(".hour").text();
+    console.log(eventTime);
+    localStorage.setItem(eventTime,JSON.stringify(eventText));
+
+    colorChange();
+    renderText();
+});
 
 // Enter and Display Events
 function renderText () {   
