@@ -1,4 +1,4 @@
-# Word Day 
+# Work Day Scheduler
 This application allows users to schedule their day during business hours. 
 The user can enter tasks for each hour and save them with a button click that allows the changes to be save locally.
 The user can also visually tell which tasks are past, present, and future depending on the color of the time window. 
@@ -15,3 +15,4 @@ Past: Grey, Present: Red, Future: Green.
 - Bootstrap
 
 ## Live Site:
+https://matthewsonger.github.io/work-day-scheduler/
